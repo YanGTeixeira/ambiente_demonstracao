@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Barlow-medium';
+    src: url('../../../fonts/Barlow/Barlow-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Barlow-black';
+    src: url('../../../fonts/Barlow/Barlow-Black.ttf');
+}
+
+@font-face {
+    font-family: 'Barlow-bold';
+    src: url('../../../fonts/Barlow/Barlow-Bold.ttf');
+}
+
+
+.container-widget-canais {
+    bottom: 25px;
+    right: 25px;
+  }
+
+.textBack {
+    font-size: 13px;
+}
+
+.txt-header{
+    margin-left: 30px;
+}
+.header-xbar{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+a {
+    color: white;
+    font-size: Barlow-bold!important;
+}
+
+.xbar {
+    min-height: 55vh;
+    background-color: lightsteelblue;
+}
+
+.xbar {
+    background-image: url("../imgs/background.png");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.info-black-demo {
+    background-color: rgba(51, 51, 51, 0.7);
+    width: 30%;
+    height: 290px;
+    display: flex;
+    position: absolute;
+    margin-left: 21%;
+    margin-top: 10%;
+}
+
+.line-yellow {
+    width: 280px;
+    height: 6px;
+    background-color: #FDB913;
+    margin-top: 25%;
+    margin-left: 200px;
+}
+
+.text-info-black {
+    width: 78%;
+    color: white;
+    padding-left: 41px;
+    margin-top: 23px;
+    font-size: 33px;
+    font-display: Barlow-medium!important;
+}
+
+.demostracao-txt {
+    font-size: 41px;
+    color: #FDB913;
+    font-family: Barlow-black!important;
+}
+
+.text-interagindo {
+    width: 17%;
+    margin-left: 21%;
+    margin-top: 22px;
+    color: #333333;
+    font-display: Barlow-medium!important;
+}
+
+.confira {
+    color: #FDB913;
+    font-size: Barlow-bold!important;
+    margin-top: 7px;
+}
+
+.info-xbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 30%;
+}
+.info-nav {
+    font-size: 14px;
+    margin-left: 50%;
+}
+
+.img-xbar {
+    width: 4%;
+    margin-top: 4%;
+    margin-left: 15%;
+}

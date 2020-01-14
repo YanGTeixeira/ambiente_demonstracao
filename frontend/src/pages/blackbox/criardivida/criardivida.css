@@ -1,0 +1,207 @@
+@font-face {
+    font-family: semiBold;
+    src: url('../../../fonts/Montserrat/Montserrat-SemiBold.ttf');
+}
+
+.principal {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+
+
+.main-container {
+    padding: 50px 0px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.back {
+    margin-top: 1em;
+    margin-left: 1em;
+    z-index: 2;
+    position: absolute;
+    width: 2em;
+    margin-right: 1em;
+    width: 12%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.textBack {
+    font-family: 'Roboto Regular';
+    color: #FFFFFF;
+    font-size: 0.9em;
+}
+
+.form-box-criar {
+    margin: auto auto;
+    width: 300px;
+    height: 350px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-logo-criar {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 70px;
+}
+
+.box-nao-preenchido {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.logo {
+    width: 130px !important;
+}
+
+.client-data {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.client-data input {
+    width: 80%;
+    margin: auto;
+    background-color: #BFBFBF;
+    border: 0;
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    height: 45px;
+    padding-left: 10px;
+}
+
+::-webkit-input-placeholder {
+    color: #FFF;
+    font: 14px "Roboto", sans-serif;
+}
+
+:-moz-placeholder {
+    color: #FFF;
+    font: 14px "Roboto", sans-serif;
+}
+
+::-moz-placeholder {
+    color: #FFF;
+    font: 14px "Roboto", sans-serif;
+}
+
+:-ms-input-placeholder {
+    color: #FFF;
+    font: 14px "Roboto", sans-serif;
+}
+
+.action-bittons {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 80%;
+}
+
+.action-bittons button {
+    height: 44px;
+    width: 110px;
+    color: #FFF;
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+    border: 0;
+    font: 18px "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.btn-back {
+    margin-right: 20px;
+    background-color: #646464;
+}
+
+.btn-next {
+    background-color: #000;
+}
+
+.footer-flex {
+    color: #FFF;
+    margin: auto auto;
+    bottom: 0px;
+    margin-bottom: 20px;
+}
+
+.footer-text {
+    margin-right: 10px;
+}
+
+.input-divida{
+    background-color: #BFBFBF;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 72%;
+    margin-top: 10px;
+}
+
+.body-modal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 13px;
+}
+
+@media (min-width: 650px) {
+    .principal {
+        flex-direction: column;
+    }
+    .main-container {
+        flex-direction: row;
+    }
+    .logo{
+        width: 100px;
+    }
+}
+
+
+.mani-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 17px;
+}
+
+.button-voltar{
+    width: 80px;
+    border: 0;
+    background-color: #646464;
+    color: white;
+    padding: 6px;
+    font-size: 15px;
+    font-family: semiBold;
+    cursor: pointer;
+}
+
+.button-continuar{
+    width: 80px;
+    border: 0;
+    background-color: black;
+    color: white;
+    padding: 6px;
+    font-size: 14px;
+    font-family: semiBold;
+    cursor: pointer;
+}
+

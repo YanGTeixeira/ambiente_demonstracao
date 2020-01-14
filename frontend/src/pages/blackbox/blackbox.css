@@ -1,0 +1,119 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.principal {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.main-container {
+    padding: 50px 0px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-logo {
+    background-color: white;
+    width: 300px;
+    height: 150px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.box-options {
+    display: flex;
+    flex-direction: row
+}
+
+.box-option {
+    background-color: #FDB913;
+    width: 140px;
+    height: 140px;
+    margin-top: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    position: relative;
+}
+
+.box-option .text-option {
+    text-transform: uppercase;
+    width: 75%;
+    color: black;
+}
+
+.text-option {
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.box-option-direita {
+    margin-left: 20px;
+}
+
+.container-logo-blackbox {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.logo-blackbox {
+    width: 230px;
+    margin-left: 40px;
+}
+
+.back {
+    margin-top: 1em;
+    margin-left: 1em;
+    z-index:2;
+    position: absolute;
+    width: 2em;
+    margin-right: 1em;
+    width: 12%;
+}
+
+a:link {
+    text-decoration:none;
+}
+
+.textBack {
+    font-family: 'Roboto Regular';
+    color: #FFFFFF;
+    font-size: 0.9em;
+}
+
+.footer-flex {
+    color: #FFF;
+    margin: auto auto;
+    bottom: 0px;
+    margin-bottom: 20px;
+}
+
+.footer-text {
+    margin-right: 10px;
+}
+@media (min-width: 650px) {
+    .principal {
+        flex-direction: column;
+    }
+
+    .main-container {
+        flex-direction: row;
+    }
+    .box-option {
+        background-color: #FDB913;
+        width: 150px;
+        height: 150px;
+        margin-top: 0;
+        margin-left: 15px;
+    }
+    
+}

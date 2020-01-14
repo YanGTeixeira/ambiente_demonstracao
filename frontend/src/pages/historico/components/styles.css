@@ -1,0 +1,62 @@
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.page-item{
+    border: 1px solid rgb(177, 177, 177);
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2px;
+    border-radius: 4px;
+    color: black;
+    
+}
+
+.numero{
+    margin-left: 75px;
+    margin-right: 75px;
+    padding: 7px;
+    cursor: default;
+}
+
+.seta{
+    padding: 7px;
+    cursor: pointer;
+}
+
+.selecionado{
+    border-color: #FDB913;
+}
+
+
+.btn-ligar{
+    border: 0px;
+    background-color: #FDB913;
+    border-radius: 3px;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+    /* margin-left: 30%; */
+}
+
+.btn-ligar:hover {
+    cursor: pointer;
+}
+
+.pago{
+    font-weight: bold !important;
+    color: green !important;
+}
+
+.pendente{
+    font-weight: bold !important;
+    color: red !important;
+}
+
+.negado{
+    font-weight: bold !important;
+}

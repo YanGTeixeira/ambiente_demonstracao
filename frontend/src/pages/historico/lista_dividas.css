@@ -1,0 +1,17 @@
+/*    async componentDidMount() {
+        fetch('http://localhost:8000/api/v1/listadividas', {
+            method: 'get',
+            headers: { 'Content-Type': 'application/json' },
+        }).then(async res => {
+            const t = await res.json();
+            this.setState({ table: t.result })
+            console.log('this.state.table')
+            console.log(this.state.table)
+        })
+        console.log(this.state.table)
+    } */
+
+/* .tam {
+    min-width: 780px;
+    max-width: 780px;
+} */
